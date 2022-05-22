@@ -257,13 +257,6 @@ address {
       height: 30px;
       border-radius: 50%;
       padding: 0;
-  
-      background-color: inherit;
-      border: 1px solid var(--modal-border-btn-color);
-      color: var(--black);
-      cursor: pointer;
-  
-      transition: color 250ms var(--timing-function);
     }
   
     .button-closed-icon {
