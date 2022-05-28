@@ -209,7 +209,9 @@ address {
 }
 
 .hero-button:hover,
-.examples-button:hover {
+.examples-button:hover,
+.hero-button:focus,
+.examples-button:focus {
   color: var(--button-hover-color);
   background-color: var(--background-color-hover);
 }
@@ -244,7 +246,7 @@ address {
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
-      border-radius: 4px;
+    border-radius: 4px;
     transition: opacity 250ms var(--transition-timing),
       transform 250ms var(--transition-timing);
 
@@ -668,7 +670,8 @@ address {
   transition: transform 250ms var(--transition-timing), opacity 250ms var(--transition-timing);
 }
 
-.examples-link:hover .examples-second-laer  {
+.examples-link:hover .examples-second-laer,
+.examples-link:focus .examples-second-laer  {
   opacity: 1;
   transform: translateY(0);
 }
